@@ -39,6 +39,22 @@ body {
   border-bottom: 2px solid black; /* Adjust the underline style */
 }
 
+.contact-links a {
+  margin: 20px; /* Adjust the margin value as needed */
+/*  margin-bottom: 10px;*/
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 22px; /* Adjust the font size value as needed */
+  font-family: 'Geologica', sans-serif;
+  display: inline-block;
+  position: relative;
+  line-height: 0.8
+}
+
+.contact-links a:hover {
+  color: #00ccff;
+}
+
 .top-bar {
   background-color: #3f3f3f;
   display: flex;
@@ -56,6 +72,7 @@ body {
   font-family: 'Geologica', sans-serif;
   display: inline-block;
   position: relative;
+  margin-top: 5px;
 }
 
 .top-bar a::after {
