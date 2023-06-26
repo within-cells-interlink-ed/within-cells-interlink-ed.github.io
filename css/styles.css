@@ -4,24 +4,23 @@ body {
   background-color: #111;
   color: #fff;
 }
-/*  font-family: 'Belanosima', sans-serif;*/
 
 .container {
-  max-width: 1200px; /* Adjust the width as needed */
+  max-width: 1200px;
   margin: 0 auto;
   background-color: #3f3f3f;
 }
 
 .container p {
-  margin: 20px; /* Adjust the margin value as needed */
-  font-size: 20px; /* Adjust the font size value as needed */
+  margin: 20px; 
+  font-size: 20px; 
   line-height: 1.4;
   margin-bottom: 10px;
   color: #c8c3bc;
 }
 
 .container h1 {
-  margin: 20px; /* Adjust the margin value as needed */
+  margin: 20px; 
   font-family: 'Geologica', sans-serif;
   line-height: 1.4;
   margin-bottom: 10px;
@@ -37,6 +36,32 @@ body {
   left: 0;
   width: 100%;
   border-bottom: 2px solid black; /* Adjust the underline style */
+}
+
+.topics a {
+  margin: 20px;
+  font-family: 'Geologica', sans-serif;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: whitesmoke;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+
+}
+
+.topics a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust the gap between text and underline */
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid black; /* Adjust the underline style */
+}
+
+.topics a:hover {
+  color: #00ccff;
 }
 
 .contact-links a {
@@ -55,12 +80,45 @@ body {
   color: #00ccff;
 }
 
+.top-bar-home {
+  background-color: #3f3f3f;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.top-bar-home a {
+  color: #00ccff;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Geologica', sans-serif;
+/*  display: inline-block;*/
+/*  position: relative;*/
+  margin-top: 7px;
+}
+
+.top-bar-home a::after {
+/*  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid black;*/
+}
+
+.top-bar-home a:hover {
+  color: #ccc;
+}
+
 .top-bar {
   background-color: #3f3f3f;
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-bottom: 3px;
+  padding-bottom: 3px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -68,20 +126,20 @@ body {
 .top-bar a {
   color: #00ccff;
   text-decoration: none;
-  font-size: 22px; /* Adjust the font size value as needed */
+  font-size: 22px;
   font-family: 'Geologica', sans-serif;
   display: inline-block;
   position: relative;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .top-bar a::after {
   content: "";
   position: absolute;
-  bottom: -5px; /* Adjust the gap between text and underline */
+  bottom: -5px;
   left: 0;
   width: 100%;
-  border-bottom: 2px solid black; /* Adjust the underline style */
+  border-bottom: 2px solid black;
 }
 
 .top-bar a:hover {
